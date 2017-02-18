@@ -22,7 +22,7 @@ class Directory extends SourcePluginBase {
    *
    * @var int
    */
-  protected $recurseLevel = 0;
+  protected $recurseLevel = -1;
 
   /**
    * A list of files from the provided directory, and possible children.
